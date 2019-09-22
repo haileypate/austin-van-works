@@ -2,7 +2,23 @@
   background-color: rgba(0,0,0,.4);
 }
 
-/* .jumbotron {
+button.navbar-toggler {
+  color: orange;
+}
+
+.jumbotron {
   background-image: url('../../img/austin-bg.jpg');
-  margin-top: -50px;
-} */
+  margin-top: -5rem;
+}
+
+.jumbotron-heading {
+  padding-top: 7rem;
+  color: white;
+  font-family: 'Gayathri', sans-serif;
+}
+
+.site-logo {
+  max-height: 50px;
+  padding-right: 1rem;
+}
+
