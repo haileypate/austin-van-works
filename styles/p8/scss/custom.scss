@@ -1,0 +1,131 @@
+//settings for getting sass compiler to behave: ~/Library/Application Support/Code/User/settings.json
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap');
+@import "../../bootstrap/scss/bootstrap.scss";
+
+// Bootstrap Variable Overrides (ordered as found in bootstrap source _variables.scss)
+
+// Color system
+
+$white:    #fff !default;
+$black:    #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+// Options
+// Spacing
+// Body
+// Links
+// Paragraphs
+// Grid 
+// Typography
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Monserrat", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+$line-height-base:            1.5 !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$headings-margin-bottom:      $spacer / 2 !default;
+$headings-font-family:        "Josefin+Sans" !default;
+// $headings-font-weight:        500 !default;
+$headings-line-height:        1.2 !default;
+$headings-color:              null !default;
+
+// Tables
+// Buttons
+// Forms
+// Form validation
+// Navs
+// Navbar
+
+.navbar {
+  background-color: rgba(0,0,0,.4);
+}
+
+button.navbar-toggler {
+  color: green;
+}
+.site-logo {
+  max-height: 50px;
+  padding-right: 1rem;
+}
+
+// Dropdowns
+
+// Pagination
+
+// Jumbotron
+
+.jumbotron {
+  background-image: url('../../img/austin-bg.jpg');
+  margin-top: -5rem;
+  font-family: "Josefin Sans";
+}
+
+.jumbotron-heading {
+  padding-top: 7rem;
+  color: white;
+}
+
+// Cards
+
+// Tooltips
+
+// Form tooltips must come after regular tooltips
+
+// Popovers
+
+// Toasts
+
+// Badges
+
+// Modals
+
+// Alerts
+
+// Progress bars
+
+// List group
+
+// Image thumbnails
+
+// Figures
+
+// Breadcrumbs
+
+// Carousel
+
+// Spinners
+
+// Close
+
+// Code
+
+// Utilities
+
+// Printing
