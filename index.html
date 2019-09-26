@@ -81,59 +81,87 @@
   </div>
 </section>
 
-<div class="album py-5 bg-light">
+<section id="featured">
+    <div class="container-fluid">
+      <h2 class="text-center">Featured vans</h2>
+      <div class="row d-flex justify-content-around">
+
+        <div class="card col-md-3">
+          <img src="img/van-placeholder.png" class="card-img-top p-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Van A</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div><!--card-body-->
+        </div><!--card-->
+
+        <div class="card col-md-3">
+          <img src="img/van-placeholder.png" class="card-img-top p-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Van B</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div><!--card-body-->
+        </div><!--card-->
+      
+        <div class="card col-md-3">
+          <img src="img/van-placeholder.png" class="card-img-top p-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Van C</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div><!--card-body-->
+        </div><!--card-->
+      
+      </div><!--row-->
+    </div><!--container-->
+</section><!--#featured-->
+
+
+<section id="favorites">
   <div class="container">
-
+    <h2 class="text-center">A few of our favorite things...</h2>
     <div class="row">
-      <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-          <div class="card-body">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-              </div>
-              <small class="text-muted">9 mins</small>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-          <div class="card-body">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-              </div>
-              <small class="text-muted">9 mins</small>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card mb-4 shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-          <div class="card-body">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-              </div>
-              <small class="text-muted">9 mins</small>
-            </div>
-          </div>
-        </div>
-      </div>
+      <img src="img/001/IMG_0313.jpg" alt="..." class="col-lg-4 img-thumbnail">
+      <img src="img/001/IMG_0657.jpg" alt="..." class="col-lg-4 img-thumbnail">
+      <img src="img/001/IMG_0658.jpg" alt="..." class="col-lg-4 img-thumbnail">
+      <img src="img/001/IMG_0659.jpg" alt="..." class="col-lg-4 img-thumbnail">
+      <img src="img/001/IMG_0841.jpg" alt="..." class="col-lg-4 img-thumbnail">
+    </div><!--row-->
+  </div><!--container-->
 
-    </div>
-  </div>
-</div>
+</section><!--#favorites-->
+
+<section id="contact">
+    <form class="container">
+        <h2 class="text-center">Get in touch!</h2>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName">Name</label>
+            <input type="name" class="form-control" id="inputName" placeholder="Your name...">
+          </div><!--form-group-->
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Your email...">
+          </div><!--form-group-->
+        </div><!--form-row-->
+        <div class="form-group">
+          <label for="inputMessage">Message</label>
+          <textarea type="text" class="form-control" id="inputMessage" placeholder="Your message..."></textarea>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Yes, please add me to your email list thing!
+            </label>
+          </div><!--form-check-->
+        </div><!--form-group-->
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form><!--container-->
+
+</section><!--#contact-->
+
 
 </main>
 
